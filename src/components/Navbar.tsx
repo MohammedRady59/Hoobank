@@ -9,7 +9,7 @@ function Navbar() {
     setOpen((prev) => !prev);
   }
   return (
-    <nav className="w-full flex justify-between items-center py-6 navbar">
+    <nav className="w-full flex justify-between items-center py-6 navbar relative z-40">
       <img
         src={logo}
         alt="logoImage"
