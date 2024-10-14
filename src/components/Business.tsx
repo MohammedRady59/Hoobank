@@ -24,7 +24,7 @@ function Business() {
         {features.map((el, idx) => (
           <div
             key={el.id}
-            className={`flex flex-row p-6 rounded-[20px] feature-card ${
+            className={`flex flex-row p-6 rounded-[20px] feature-card  ${
               idx !== features.length ? "mb-6" : "mb-0"
             }`}
           >

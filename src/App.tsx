@@ -1,6 +1,7 @@
 import {
   Billing,
   Business,
+  CardDeal,
   Clients,
   Ctta,
   Footer,
@@ -28,8 +29,8 @@ function App() {
 
       <div className={`bg-primary ${styles.flexStart} ${styles.paddingX} `}>
         <div className={`${styles.boxWidth} `}>
-          <Stats /> <Business /> <Billing /> <Testmonials /> <Clients />{" "}
-          <Ctta /> <Footer />
+          <Stats /> <Business /> <Billing /> <CardDeal /> <Testmonials />{" "}
+          <Clients /> <Ctta /> <Footer />
         </div>
       </div>
     </div>
